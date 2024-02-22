@@ -25,14 +25,8 @@ export function Home() {
       </View>
 
       <View style={styles.participantContainer}>
-        <Participant />
-        <Participant />
-        <Participant />
-        <Participant />
-        <Participant />
-        <Participant />
-        <Participant />
-        <Participant />
+        <Participant name="Jonatán Paes" />
+        <Participant name="Juninho Paes" />
       </View>
     </View>
   )
