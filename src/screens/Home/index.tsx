@@ -6,6 +6,10 @@ import { styles } from './styles'
 export function Home() {
   function handleParticipantAdd() {}
 
+  function handleParticipantRemove(name: string) {
+    console.log(name)
+  }
+
   return (
     <View style={styles.container}>
       <Text style={styles.eventName}>Nome do evento</Text>
@@ -25,8 +29,7 @@ export function Home() {
       </View>
 
       <View style={styles.participantContainer}>
-        <Participant name="Jonatán Paes" />
-        <Participant name="Juninho Paes" />
+        <Participant name="Jonatán Paes" onRemove={() => handleParticipantRemove('jonatán')} />
       </View>
     </View>
   )
