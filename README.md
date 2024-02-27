@@ -48,7 +48,7 @@ npm run start
 ```
 
 <p align="center">
-  <img alt="Demonstration Mobile" src="./preview/imhere.gif" width="100%" height="100%" />
+  <img alt="Demonstration Mobile" src="./preview/imhere.gif" width="50%" height="50%" />
 </p>
 
 # Tecnologias
